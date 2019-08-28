@@ -3,7 +3,7 @@ from .models import Todo
 
 
 
-class TodoSerializer(serializers.ModelDurationField):
+class TodoSerializer(serializers.ModelSerializer):
     class Meta:
         fields = (
             'id',
